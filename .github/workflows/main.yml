@@ -1,7 +1,8 @@
+---
 name: Schedule job
 on:
   schedule:
-    - cron: 19 11 * * *
+    - cron: 20 11 * * *
 jobs:
   run-script:
     runs-on: ubuntu-latest
